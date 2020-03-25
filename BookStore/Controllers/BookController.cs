@@ -67,7 +67,7 @@ namespace bsm_Allah.Controllers
                             book.image.CopyTo(fileStream);
                         }
                     }
-                    Console.WriteLine(image);
+                    //  Console.WriteLine(image);
                     if (book.author_id == -1)
                     {
                         ViewBag.message = "Please select an auther";
@@ -104,7 +104,9 @@ namespace bsm_Allah.Controllers
                 book_name = book.title,
                 book_description = book.description,
                 author_id = author_id,
+                image_path = book.image_path,
                 authors = GetAuthors()
+                
             };
             return book_model;
         }
@@ -125,12 +127,33 @@ namespace bsm_Allah.Controllers
                     ViewBag.message = "Please select an auther";
                     return View(Get_BookAutherView_model(id));
                 }
+                string image = string.Empty;
+                if (uBook.image != null)
+                {
+                    string images_folder_path = Path.Combine(hosting.ContentRootPath, "Content");
+                    image = uBook.image.FileName;
+                    string path = Path.Combine(images_folder_path, image);
+                    using (var fileStream = new FileStream(path, FileMode.Create))
+                    {
+                        uBook.image.CopyTo(fileStream);
+                    }
+                }
+                Console.WriteLine("dddd "+image);
+                string previousImage = bookRepository.Find(id).image_path;
+                string _Path = "Content/" + previousImage;
+                Console.WriteLine("dddd " + _Path);
+                FileInfo file = new FileInfo(_Path);
+                if (file.Exists)
+                {
+                    file.Delete();
+                }
                 var book = new Book
                 {
                     auther = authorRepository.Find(uBook.author_id),
                     id = uBook.book_id,
                     description = uBook.book_description,
-                    title = uBook.book_name
+                    title = uBook.book_name,
+                    image_path = image
                 };
                 bookRepository.Update(id, book);
                 return RedirectToAction(nameof(Index));

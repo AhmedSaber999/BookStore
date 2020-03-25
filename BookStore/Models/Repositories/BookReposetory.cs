@@ -54,6 +54,7 @@ namespace BookStore.Models.Repositories
             book.title = entity.title;
             book.description = entity.description;
             book.auther = entity.auther;
+            book.image_path = entity.image_path;
         }
     }
 }

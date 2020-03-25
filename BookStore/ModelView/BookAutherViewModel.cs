@@ -22,5 +22,6 @@ namespace BookStore.ModelView
         public int author_id { get; set; }
         public List<Auther> authors { get; set; }
         public IFormFile image { get; set; }
+        public string image_path { get; set; }
     }
 }
