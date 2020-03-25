@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmed\\Desktop\\BookStore\\BookStore\\BookStore.csproj",
+      "projectUniqueName": "F:\\ASP.net core tests\\BookStore\\BookStore\\BookStore.csproj",
       "projectName": "BookStore",
-      "projectPath": "C:\\Users\\ahmed\\Desktop\\BookStore\\BookStore\\BookStore.csproj",
+      "projectPath": "F:\\ASP.net core tests\\BookStore\\BookStore\\BookStore.csproj",
       "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmed\\Desktop\\BookStore\\BookStore\\obj\\",
+      "outputPath": "F:\\ASP.net core tests\\BookStore\\BookStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",

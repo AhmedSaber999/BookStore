@@ -29,6 +29,15 @@
             @Html.DisplayFor(model => model.description)
         </dd>
         <dt class="col-sm-2">
+            image
+        </dt>
+        <dd class="col-sm-10">
+           <img src="~/Content/@Url.Content(Model.image_path)"   
+                class="rounded-circle"   
+                height="40" width="40"   
+                asp-append-version="true" />
+        </dd>
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.auther.name)
         </dt>
         <dd class="col-sm-10">

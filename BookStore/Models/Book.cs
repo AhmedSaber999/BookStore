@@ -16,6 +16,7 @@ namespace BookStore.Models
         [Required]
         [MinLength(3)]
         public string description { get; set; }
+        public string image_path { get; set; }
         [Required]
         public Auther auther { get; set; }
     }

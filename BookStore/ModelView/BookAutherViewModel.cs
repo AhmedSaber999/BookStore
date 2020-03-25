@@ -1,4 +1,5 @@
 ﻿using BookStore.Models;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -20,5 +21,6 @@ namespace BookStore.ModelView
         [Required]
         public int author_id { get; set; }
         public List<Auther> authors { get; set; }
+        public IFormFile image { get; set; }
     }
 }

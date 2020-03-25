@@ -42,3 +42,47 @@ C:\Users\ahmed\Desktop\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.dll
 C:\Users\ahmed\Desktop\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.pdb
 C:\Users\ahmed\Desktop\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.genruntimeconfig.cache
 C:\Users\ahmed\Desktop\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.csproj.CopyComplete
+F:\ASP.net core tests\BookStore\BookStore\bin\Debug\netcoreapp3.1\appsettings.Development.json
+F:\ASP.net core tests\BookStore\BookStore\bin\Debug\netcoreapp3.1\appsettings.json
+F:\ASP.net core tests\BookStore\BookStore\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+F:\ASP.net core tests\BookStore\BookStore\bin\Debug\netcoreapp3.1\BookStore.exe
+F:\ASP.net core tests\BookStore\BookStore\bin\Debug\netcoreapp3.1\BookStore.deps.json
+F:\ASP.net core tests\BookStore\BookStore\bin\Debug\netcoreapp3.1\BookStore.runtimeconfig.json
+F:\ASP.net core tests\BookStore\BookStore\bin\Debug\netcoreapp3.1\BookStore.runtimeconfig.dev.json
+F:\ASP.net core tests\BookStore\BookStore\bin\Debug\netcoreapp3.1\BookStore.dll
+F:\ASP.net core tests\BookStore\BookStore\bin\Debug\netcoreapp3.1\BookStore.pdb
+F:\ASP.net core tests\BookStore\BookStore\bin\Debug\netcoreapp3.1\BookStore.Views.dll
+F:\ASP.net core tests\BookStore\BookStore\bin\Debug\netcoreapp3.1\BookStore.Views.pdb
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.csprojAssemblyReference.cache
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.csproj.CoreCompileInputs.cache
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.MvcApplicationPartsAssemblyInfo.cache
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.RazorAssemblyInfo.cache
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.RazorAssemblyInfo.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.AssemblyInfoInputs.cache
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.AssemblyInfo.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.TagHelpers.input.cache
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.TagHelpers.output.cache
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.RazorCoreGenerate.cache
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Author\Create.cshtml.g.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Author\Delete.cshtml.g.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Author\Details.cshtml.g.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Author\Edit.cshtml.g.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Author\Index.cshtml.g.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Book\Create.cshtml.g.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Book\Delete.cshtml.g.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Book\Details.cshtml.g.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Book\Edit.cshtml.g.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Book\Index.cshtml.g.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.RazorTargetAssemblyInfo.cache
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.RazorTargetAssemblyInfo.cs
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.Views.pdb
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\staticwebassets\BookStore.StaticWebAssets.Manifest.cache
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\staticwebassets\BookStore.StaticWebAssets.xml
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.dll
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.pdb
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.genruntimeconfig.cache
+F:\ASP.net core tests\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.csproj.CopyComplete

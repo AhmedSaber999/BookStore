@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using BookStore.Models;
 using BookStore.Models.Repositories;
 using BookStore.ModelView;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting;
 
 namespace bsm_Allah.Controllers
 {
@@ -14,12 +17,16 @@ namespace bsm_Allah.Controllers
     {
         private IBookRepository<Book> bookRepository { get; }
         private IBookRepository<Auther> authorRepository { get; }
+        private IHostEnvironment hosting { get; }
 
         // GET: Book
-        public BookController(IBookRepository<Book> bookRepository, IBookRepository<Auther> authorRepository)
+        public BookController(IBookRepository<Book> bookRepository, 
+            IBookRepository<Auther> authorRepository,
+            IHostEnvironment hosting)
         {
             this.bookRepository = bookRepository;
             this.authorRepository = authorRepository;
+            this.hosting = hosting;
         }
         public ActionResult Index()
         {
@@ -49,6 +56,18 @@ namespace bsm_Allah.Controllers
             {
                 try
                 {
+                    string image = string.Empty;
+                    if (book.image != null)
+                    {
+                        string images_folder_path = Path.Combine(hosting.ContentRootPath, "Content");
+                        image = book.image.FileName;
+                        string path = Path.Combine(images_folder_path, image);
+                        using (var fileStream = new FileStream(path, FileMode.Create))
+                        {
+                            book.image.CopyTo(fileStream);
+                        }
+                    }
+                    Console.WriteLine(image);
                     if (book.author_id == -1)
                     {
                         ViewBag.message = "Please select an auther";
@@ -60,8 +79,8 @@ namespace bsm_Allah.Controllers
                         id = book.book_id,
                         description = book.book_description,
                         title = book.book_name,
-                        auther = author
-
+                        auther = author,
+                        image_path = image
                     };
                     bookRepository.Add(new_book);
                     return RedirectToAction(nameof(Index));

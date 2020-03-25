@@ -24,6 +24,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.auther.name)
             </th>
+            <th>
+                image
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -40,6 +43,20 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.auther.name)
+            </td>
+            <td>
+                @if (item.image_path == null || item.image_path.Length == 0)
+                {
+                    <img src="~/Content/default.png"
+                        height="60" width="60"
+                        asp-append-version="true" />
+                }
+                else
+                {
+                   <img src="~/Content/@item.image_path"
+                        height="60" width="60"
+                        asp-append-version="true" />
+                }
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new {  id=item.id }) |

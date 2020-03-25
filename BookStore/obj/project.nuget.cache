@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JaKTpZbHBtAj0ewKaEZ5uts8tfv6B0jz+MyScnEqt59L6CR4128V0ChKi/Dr9kgqpSZI5FJuMPu2LHmlEt3UYQ==",
+  "dgSpecHash": "8CUe2TUYxfKA+s4HMboO/0oHqlyDKuEnwsIUmtPvsbQDtYkqIOjh57458ENi/WnGOetMZyjZD487DDKyW42WnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ahmed\\Desktop\\BookStore\\BookStore\\BookStore.csproj",
+  "projectFilePath": "F:\\ASP.net core tests\\BookStore\\BookStore\\BookStore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
